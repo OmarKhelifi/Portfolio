@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Omar KHELIFI</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Omar</a>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#services">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Omar<br><span>Web Development</span></h2>
+            <h3>I Create Web Application</h3>
+            <a href="#projects" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/omar-khelifi-b18523251"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/OmarKhelifi"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/okhelifi1998?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/qr/2ZLZX74DX2XKB1"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">About me</h2>
+        <div class="content">
+            <img id="myPhoto"  src="img/omar2.jpg" alt="MyPhoto">
+            <p>My name is Omar KHELIFI and I am a creative web developer with more than 2 years of experience. I'm currently based in Tunisia,Sfax. My main focus lies on the front-end, JavaScript and Angular development.</p>
+            <p>My first contact with web development was more than 2 years ago in high school. I liked how I can create something from nothing, so I spent a lot of time experimenting with AngularJS outside the school too.</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/todolist.PNG" />
+                </div>
+                <div class="project-info">
+                    
+                    <strong class="project-title">
+                        <span>To Do List</span>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img class="android" src="img/chat app.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Chat Application</span>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img class="android" src="img/ecommerce.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Ecommerce Website</span>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img class="android" src="img/gestion_de_stock.png" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Gestion de Stock</span>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/RA.jpg" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Augmented Reality</span>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img style="height: 230px;" src="img/world_cup.jpg" />
+                </div>
+                <div class="project-info">
+                    <strong class="project-title">
+                        <span>Standing board of world cup QATAR</span>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+21625836067</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>okhelifi1@outlook.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Omar KHELIFI</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+</body>
+<script>
+    function show_pop() {
+        document.getElementById("pup").classList.add("open")
+    }
+    function hide_pop() {
+        document.getElementById("pup").classList.remove("open")
+    }
+</script>
+</html>
